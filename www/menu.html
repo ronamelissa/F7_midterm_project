@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>MENU</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+      <!-- Statusbar overlay -->
+<!--       <div class="statusbar"></div> -->
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="menu" class="page">
+
+                <div class="navbar">
+          <div class="navbar-inner sliding">
+                      <div class="left">
+                <a class="link back">
+                <i class="icon icon-back"></i>
+                <span class="ios-only"></span>
+          </a>
+        </div>
+      <div class="title">MENU</div>
+    </div>
+  </div>
+
+  <div class="snow">
+<style>
+.editor-stage .snow {
+  height:50px;
+  background: #fff;
+}
+.snow{
+  overflow-y: scroll;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height:100vh;
+  background: #000000;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/static-ressources/s1.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s2.png'), url('https://s3-eu-west-1.amazonaws.com/static-ressources/s3.png');
+  z-index:100;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+</style>
+<p>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            <!-- Link to another page -->
+            <div id="appetizer">
+              <center>
+              <div class="title">APPETIZER</div><br>
+              <img src="/menu/dragon.jpg" width="48%">
+              <img src="/menu/doritos.jpg" width="48%">
+              <img src="/menu/bread.jpg" width="48%">
+              <img src="/menu/oysters.jpg" width="48%">
+            </center>
+            </div>
+            <br>
+            <div id="course">
+              <center>
+              <div class="title">MAIN COURSE</div><br>
+              <img src="/menu/boar.jpg" width="48%">
+              <img src="/menu/doritos.jpg" width="48%">
+              <img src="/menu/chicken.jpg" width="48%">
+              <img src="/menu/soup.jpg" width="48%">
+            </center>
+            </div>
+            <br>
+            <div id="drinks">
+              <center>
+              <div class="title">BEVERAGE</div><br>
+              <img src="/menu/apple.jpg" width="48%">
+              <img src="/menu/cocktail.jpg" width="48%">
+            </center>
+            </div>
+            <br>
+            <div id="desserts">
+              <center>
+              <div class="title">DESSERTS</div><br>
+              <img src="/menu/blueberry.jpg" width="48%">
+              <img src="/menu/snow.jpg" width="48%">
+              <img src="/menu/lemon.jpg" width="48%">
+              <img src="/menu/stallion.jpg" width="48%">
+            </center>
+            </div>
+
+          </div>
+        </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
